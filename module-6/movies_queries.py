@@ -15,6 +15,9 @@ db_config = {
     "raise_on_warnings": True
 }
 
+
+
+
 try:
     # Connect to the database
     db = mysql.connector.connect(**db_config)
